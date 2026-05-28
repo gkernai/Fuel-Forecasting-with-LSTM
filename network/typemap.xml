@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<types>
+    <!-- Ana arterler (bulvarlar) -->
+    <type id="highway.motorway"       numLanes="3" speed="33.33" priority="13" allow="passenger bus taxi delivery truck"/>
+    <type id="highway.motorway_link"  numLanes="1" speed="22.22" priority="9"  allow="passenger bus taxi delivery truck"/>
+    <type id="highway.trunk"          numLanes="2" speed="27.78" priority="11" allow="passenger bus taxi delivery truck"/>
+    <type id="highway.trunk_link"     numLanes="1" speed="22.22" priority="8"  allow="passenger bus taxi delivery truck"/>
+    <type id="highway.primary"        numLanes="2" speed="16.67" priority="9"  allow="passenger bus taxi delivery truck"/>
+    <type id="highway.primary_link"   numLanes="1" speed="16.67" priority="7"  allow="passenger bus taxi delivery truck"/>
+    <type id="highway.secondary"      numLanes="2" speed="13.89" priority="7"  allow="passenger bus taxi delivery truck"/>
+    <type id="highway.secondary_link" numLanes="1" speed="13.89" priority="6"  allow="passenger bus taxi delivery truck"/>
+    <type id="highway.tertiary"       numLanes="1" speed="11.11" priority="5"  allow="passenger bus taxi delivery truck"/>
+    <type id="highway.tertiary_link"  numLanes="1" speed="11.11" priority="4"  allow="passenger bus taxi delivery truck"/>
+    <type id="highway.residential"    numLanes="1" speed="8.33"  priority="3"  allow="passenger bus taxi delivery truck"/>
+    <type id="highway.unclassified"   numLanes="1" speed="8.33"  priority="3"  allow="passenger bus taxi delivery truck"/>
+    <type id="highway.living_street"  numLanes="1" speed="4.17"  priority="1"  allow="passenger bus taxi delivery truck"/>
+
+    <!-- Yaya / bisiklet yolları - simülasyona DAHİL ETMİYORUZ -->
+    <type id="highway.pedestrian"     numLanes="1" speed="2.78"  priority="1"  disallow="all"/>
+    <type id="highway.footway"        numLanes="1" speed="2.78"  priority="1"  disallow="all"/>
+    <type id="highway.cycleway"       numLanes="1" speed="5.56"  priority="1"  disallow="all"/>
+    <type id="highway.path"           numLanes="1" speed="2.78"  priority="1"  disallow="all"/>
+    <type id="highway.steps"          numLanes="1" speed="1.39"  priority="1"  disallow="all"/>
+    <type id="highway.service"        numLanes="1" speed="5.56"  priority="2"  disallow="all"/>
+</types>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<configuration>
+    <input>
+        <net-file value="../network/ankara.net.xml" />
+        <route-files value="../demand/scenario_3c.rou.xml" />
+        <additional-files value="tls_actuated.add.xml" />
+    </input>
+    <time>
+        <begin value="0" />
+        <end value="3600" />
+        <step-length value="1.0" />
+    </time>
+    <processing>
+        <time-to-teleport value="120" />
+    </processing>
+    <output>
+        <statistic-output value="../output/scenario_3c_stats.xml" />
+    </output>
+</configuration>
