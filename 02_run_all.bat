@@ -1,7 +1,6 @@
 @echo off
 REM ============================================
-REM  MASTER RUNNER - Tum adimlari sirayla calistirir
-REM  sumo_project/ klasorunde calistir
+REM  MASTER RUNNER 
 REM ============================================
 
 echo.
