@@ -1,10 +1,4 @@
 @echo off
-REM ============================================
-REM  OSM -> SUMO Ağ Dönüştürme Scripti
-REM  trafik_projesi/ klasöründe çalıştır
-REM ============================================
-
-echo.
 echo ========================================
 echo  SUMO Ag Donusturme Baslıyor...
 echo ========================================
