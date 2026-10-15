@@ -1,18 +1,4 @@
-"""
-SUNUM DEMO SCRIPTI
-==================
-Egitilmis LSTM modelini yukler ve canli tahmin yapar.
-Sunumda calistirip hocaya gostereceksin.
 
-Kullanim:
-    cd sumo_project
-    python scripts/demo.py
-
-3 demo modu var:
-  1. Canli tahmin - CSV'den veri okuyup gercek vs tahmin gosterir
-  2. Manuel girdi - sen deger giriyorsun, model tahmin yapiyor
-  3. Senaryo karsilastirma - farkli senaryolarin tahminlerini yan yana gosterir
-"""
 
 import os
 import sys
